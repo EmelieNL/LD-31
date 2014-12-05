@@ -21,6 +21,8 @@ public class BasicSledMovment : MonoBehaviour {
 		//Adjust movment according to player input
 		Movment();
 
+		//Debug.Log("Movment: " + rigidbody.velocity.z);
+
 	
 	}
 
