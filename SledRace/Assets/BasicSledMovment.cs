@@ -36,6 +36,7 @@ public class BasicSledMovment : MonoBehaviour {
 		//Set x pos with bounds
 		pos.x = Mathf.Clamp(pos.x - vertical, minX, maxX);
 
+
 		//update pos
 		transform.position = pos;
 		
