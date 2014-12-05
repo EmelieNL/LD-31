@@ -23,7 +23,7 @@ public class BackgroundMover : MonoBehaviour {
 	void FixedUpdate () {
 
 		//move the bg forward
-		float vel = player.velocity.z * 0.9f;
+		float vel = player.velocity.z * 0.2f;
 		transform.position = transform.position + Vector3.forward * vel * Time.deltaTime;
 	}
 }
